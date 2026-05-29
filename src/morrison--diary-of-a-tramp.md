@@ -2,6 +2,12 @@
 
 ## Front Matter
 
+### Document Information
+
+* This is version (tag) : **3.0.0**
+
+* Generated: May 30th 2026  08:16
+
 
 ### Acknowledgements 
 
@@ -17,14 +23,14 @@ A brief history of what led to this eBook is:
 
 A lot of the design ideas and the CSS (Style) files used in the eBook, came from the excellent [Standard eBooks](https://standardebooks.org/) team. I (David) did not use their conversion tools per se, but thank them and recommend that site as a great source of \"Free and liberated ebooks, carefully produced for the true book lover.\"
 
-*Thank you to the Ancient Broadcaster, for many decades of unspeakably inspiring and stimulating content.*
+> Thank you to the Ancient Broadcaster, for many decades of unspeakably inspiring and stimulating content.
 
 
 ### Notes from the conversion to an eBook - David Sidwell
 
 ---
 
-`Note: this was from the first version of this ePub, from September 2022.`
+***Note: this was from the first version of this ePub, from September 2022.***
 
 This was my first real attempt to convert HTML (a Web Page) to ePub (an eBook). In doing so I am very much appreciative of the earlier fine efforts of the team at the State Library of New South Wales and Lynne Frizell. They did the hard work of the orginal scanning and transcription.
 
@@ -56,12 +62,7 @@ The main cover image is \"*A home in the bush, Apollo Bay, Victoria*\". John Hen
 
 ---
 
-### ePub Build Information
 
-
-*Source file:*  "$$inputfile$$" 
-
-*Generated at:*  $$datetime$$
 
 
 # The Diary
