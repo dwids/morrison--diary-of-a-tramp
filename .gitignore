@@ -1,0 +1,6 @@
+archive/
+output/
+*.bak
+*.tmp
+Thumbs.db
+desktop.ini

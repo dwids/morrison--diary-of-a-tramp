@@ -1,0 +1,52 @@
+/* dsepub.css - minimal prose epub styles */
+/* Updated: May 2026 */
+
+body {
+  line-height: 1.5;
+  /* Auto hyphenation - helps with narrow epub screens */
+  hyphens: auto;
+  -epub-hyphens: auto;
+}
+
+p {
+  margin: 0;
+  /* Indent is the paragraph separator - no margin needed */
+  text-indent: 1em;
+  widows: 2;
+  orphans: 2;
+}
+
+/* First paragraph after a heading has no indent - proper book typography */
+h1 + p, h2 + p, h3 + p {
+  text-indent: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.3;
+  page-break-after: avoid;
+}
+
+h1 { font-size: 2em; margin: 2em 0 0.5em 0; }
+h2 { font-size: 1.5em; margin: 1.5em 0 0.5em 0; }
+h3 { font-size: 1.3em; margin: 1.3em 0 0.5em 0; }
+
+blockquote {
+  margin: 1em 1.5em;
+  font-size: 0.9em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Short centred rule - more booklike than full width */
+hr {
+  border: none;
+  border-top: 1px solid;
+  width: 25%;
+  margin: 1.5em auto;
+}
+
+/* Hide Pandoc auto-generated title page */
+section.titlepage { display: none; }

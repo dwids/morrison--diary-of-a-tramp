@@ -1,0 +1,11 @@
+title: Diary of a Tramp
+creator:
+- role: author
+  text: George Ernest Morrison
+- role: editor
+  text: David Sidwell
+date: 2026-01-18
+type: Version 2 - rc01
+rights: Public Domain
+description: "** will be overwritten at run time by cvt_MD_to_ePub.ps1"
+cover-image: "cover.jpg"
